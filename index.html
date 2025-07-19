@@ -9,5 +9,16 @@
 
   <h2>Here is an image:</h2>
   <img src="./a.jpg.png" alt="My Sample Image" width="300">
+
+  <h2>Click the button to add numbers:</h2>
+  <button onclick="showSum()">Add 5 + 5</button>
+  <p id="result"></p>
+
+  <script>
+    function showSum() {
+      const sum = 5 + 5;
+      document.getElementById("result").innerText = "The result is: " + sum;
+    }
+  </script>
 </body>
 </html>
